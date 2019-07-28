@@ -1,0 +1,53 @@
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+main{
+    margin-top: 40px;
+}
+h1{
+    text-align: center;
+    color:#BF955C;
+    font-size: 18px;
+}
+h2{
+    text-align: center;
+    font-size: 64px;
+    font-family: serif;
+    color: #B1B1B1;
+}
+.testimonials-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+p{
+    padding: 0 50px;
+    color:rgb(114, 112, 112);
+    line-height: 1.8;
+    margin: 50px 0 20px 0;
+}
+h4{
+    color:#BF955C;
+    font-style: italic;
+    margin-top: 25px;
+}
